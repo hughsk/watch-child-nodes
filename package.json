@@ -1,0 +1,49 @@
+{
+  "name": "watch-child-nodes",
+  "version": "1.0.0",
+  "description": "Watch the child list of a DOM node, calling a function for each new element and each element removed",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "https://github.com/hughsk"
+  },
+  "scripts": {
+    "test": "standard && browserify -t babelify test | smokestack | tap-spec"
+  },
+  "standard": {
+    "globals": [
+      "MutationObserver"
+    ]
+  },
+  "devDependencies": {
+    "babelify": "^6.2.0",
+    "browserify": "^11.0.1",
+    "smokestack": "^3.3.1",
+    "standard": "^5.1.1",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "noop2": "^2.0.0"
+  },
+  "keywords": [
+    "element,",
+    "html,",
+    "dom,",
+    "watch,",
+    "list,",
+    "children,",
+    "node,",
+    "observe"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/watch-child-nodes.git"
+  },
+  "homepage": "https://github.com/hughsk/watch-child-nodes",
+  "bugs": {
+    "url": "https://github.com/hughsk/watch-child-nodes/issues"
+  }
+}
